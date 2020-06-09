@@ -1,259 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="6.1.5" apprev="17926" start="node19">
-  <panorama id="node24" hideabout="1">
-    <input leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="-2" levelbias="0.400" levelingpitch="-2" width="3954" height="3954" overlap="1" leveltilesize="510">
-      <level preload="0" width="3954" height="3954" predecode="0"/>
-      <level preload="0" width="1977" height="1977" predecode="0"/>
-      <level preload="0" width="988" height="988" predecode="0"/>
-      <level preload="1" width="494" height="494" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+<tour appversion="6.1.5" start="node19" apprev="17926">
+  <panorama hideabout="1" id="node24">
+    <input height="3954" levelingpitch="-2" width="3954" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="-2">
+      <level height="3954" width="3954" preload="0" predecode="0"/>
+      <level height="1977" width="1977" preload="0" predecode="0"/>
+      <level height="988" width="988" preload="0" predecode="0"/>
+      <level height="494" width="494" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata heading="0" longitude="" latitude="" comment="" nodeid="node24" info="" source="" copyright="" author="" description="" datetime="26/05/2020 2:47 PM" tags="Street View" customnodeid="" title=""/>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot id="Point01" pan="-58.19" target="" url="" skinid="ht_info" tilt="11.76" description="Welcome to our main office and STEM Innovation Lab, located at 100 King William St, Kent Town, SA 5067. &#xa;&#xa;Inside you'll find our Collaboration Room, Immersion Room, production warehouse and head office." title="Welcome!"/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point02" pan="-33.39" target="$fwd" url="{node18}" fov="10" skinid="ht_node" tilt="-24.29" description="" customimagewidth="116" title=""/>
+    <userdata longitude="" copyright="" nodeid="node24" heading="0" latitude="" customnodeid="" tags="Street View" datetime="26/05/2020 2:47 PM" source="" description="" comment="" author="" title="" info=""/>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_info" url="" description="Welcome to our main office and STEM Innovation Lab, located at 100 King William St, Kent Town, SA 5067. &#xa;&#xa;Inside you'll find our Collaboration Room, Immersion Room, production warehouse and head office." target="" id="Point01" tilt="11.76" title="Welcome!" pan="-58.19"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node18}" customimagewidth="116" use3D="1" description="" target="$fwd" id="Point02" tilt="-24.29" title="" customimage="media/Arrow3D.png" pan="-33.39" distance3D="662.943"/>
     </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
+    <media>
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
+    </media>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
   </panorama>
-  <panorama id="node18" hideabout="1">
-    <input leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400" levelingpitch="0" width="3960" height="3960" overlap="1" leveltilesize="510">
-      <level preload="0" width="3960" height="3960" predecode="0"/>
-      <level preload="0" width="1980" height="1980" predecode="0"/>
-      <level preload="0" width="990" height="990" predecode="0"/>
-      <level preload="1" width="495" height="495" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama hideabout="1" id="node18">
+    <input height="3960" levelingpitch="0" width="3960" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="3960" width="3960" preload="0" predecode="0"/>
+      <level height="1980" width="1980" preload="0" predecode="0"/>
+      <level height="990" width="990" preload="0" predecode="0"/>
+      <level height="495" width="495" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="93" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata heading="93" longitude="" latitude="" comment="" nodeid="node18" info="" source="" copyright="" author="" description="" datetime="25/05/2020 11:18 AM" tags="Collab Room" customnodeid="" title="">
-      <mapcoords y_floorplan_percent="77.7143" mapid="FloorPlan01" y="-1.49414" x="0.856934" x_floorplan_percent="44.5714"/>
+    <userdata longitude="" copyright="" nodeid="node18" heading="93" latitude="" customnodeid="" tags="Collab Room" datetime="25/05/2020 11:18 AM" source="" description="" comment="" author="" title="" info="">
+      <mapcoords y="-1.49414" y_floorplan_percent="77.7143" mapid="FloorPlan01" x_floorplan_percent="44.5714" x="0.856934"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="574.49" customimageheight="94" use3D="1" id="Point01" pan="-182.81" target="0.0/0.0/70.0" url="{node21}" fov="11.53" skinid="ht_node" tilt="-39.23" description="" customimagewidth="116" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point02" pan="-315.51" target="177.4/-5.6/70.0" url="{node22}" fov="10" skinid="ht_node" tilt="-39.27" description="" customimagewidth="116" title=""/>
-      <hotspot id="Point03" pan="-228.61" target="_blank" url="https://www.lumination.com.au/products/google-expeditions-kits" skinid="ht_url" tilt="-6.98" description="" title="Expeditions Kits"/>
-      <hotspot id="Point04" pan="-142.91" target="_blank" url="https://www.lumination.com.au/products/vr-ar-creation-kits" skinid="ht_url" tilt="-15.49" description="" title="Creation Kits"/>
-      <hotspot id="Point05" pan="-282.2" target="" url="" skinid="ht_info" tilt="-26.4" description="At Lumination we recognise that technology is contantly evolving, redefining the way we teach and learn. This transformation is creating unique opportunities to turn classrooms into ative learning environments and enegage students in new and exciting ways." title="About Us"/>
-      <hotspot id="Point06" pan="-210.91" target="" url="images/GoogleExpBigDaddy-Lumination.jpg" skinid="ht_image" tilt="-11.94" description="" title="Google Expeditions Kit"/>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_node" fov="11.53" customimageheight="94" url="{node21}" customimagewidth="116" use3D="1" description="" target="0.0/0.0/70.0" id="Point01" tilt="-39.23" title="" customimage="media/Arrow3D.png" pan="-182.81" distance3D="574.49"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node22}" customimagewidth="116" use3D="1" description="" target="177.4/-5.6/70.0" id="Point02" tilt="-39.27" title="" customimage="media/Arrow3D.png" pan="-315.51" distance3D="662.943"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/products/google-expeditions-kits" description="" target="_blank" id="Point03" tilt="-6.98" title="Expeditions Kits" pan="-228.61"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/products/vr-ar-creation-kits" description="" target="_blank" id="Point04" tilt="-15.49" title="Creation Kits" pan="-142.91"/>
+      <hotspot skinid="ht_info" url="" description="At Lumination we recognise that technology is contantly evolving, redefining the way we teach and learn. This transformation is creating unique opportunities to turn classrooms into ative learning environments and enegage students in new and exciting ways." target="" id="Point05" tilt="-26.4" title="About Us" pan="-282.2"/>
+      <hotspot skinid="ht_image" url="images/GoogleExpBigDaddy-Lumination.jpg" description="" target="" id="Point06" tilt="-11.94" title="Google Expeditions Kit" pan="-210.91"/>
     </hotspots>
     <media>
-      <video field="90.000" height="1080" handcursor="1" level="1.000" pansize="10.000" width="1920" startmutedmobile="1" mode="3" ambientlevel="0.500" clickmode="2" roty="4.000" tilt="1.790" id="Element01" pan="-266.930" rotx="0.000" fov="27.710" stretch="1.000" loop="1" tiltsize="10.000" poster="media/Creation Kit Video_preview.jpg" rotz="0.000" nodechangekeep="0">
-        <source url="media/Creation Kit Video.mp4"/>
+      <video roty="4.000" mode="3" pansize="10.000" startmutedmobile="1" tiltsize="10.000" stretch="1.000" poster="media/DroneVideo_preview.jpg" nodechangekeep="0" handcursor="1" field="90.000" tilt="1.790" rotz="0.000" pan="-266.930" rotx="0.000" clickmode="2" fov="27.710" level="1.000" ambientlevel="0.500" width="1920" id="Element01" height="1080" loop="1">
+        <source url="media/DroneVideo1.mp4"/>
       </video>
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
     </media>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
   </panorama>
-  <panorama id="node21" hideabout="1">
-    <input leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400" levelingpitch="-4" width="3930" height="3930" overlap="1" leveltilesize="510">
-      <level preload="0" width="3930" height="3930" predecode="0"/>
-      <level preload="0" width="1965" height="1965" predecode="0"/>
-      <level preload="0" width="982" height="982" predecode="0"/>
-      <level preload="1" width="491" height="491" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama hideabout="1" id="node21">
+    <input height="3930" levelingpitch="-4" width="3930" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="3930" width="3930" preload="0" predecode="0"/>
+      <level height="1965" width="1965" preload="0" predecode="0"/>
+      <level height="982" width="982" preload="0" predecode="0"/>
+      <level height="491" width="491" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="-84" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata heading="-84" longitude="" latitude="" comment="" nodeid="node21" info="" source="" copyright="" author="" description="" datetime="25/05/2020 11:42 AM" tags="Collab Room 2" customnodeid="" title="">
-      <mapcoords y_floorplan_percent="79.8571" mapid="FloorPlan01" y="-1.53534" x="0.4422" x_floorplan_percent="23"/>
+    <userdata longitude="" copyright="" nodeid="node21" heading="-84" latitude="" customnodeid="" tags="Collab Room 2" datetime="25/05/2020 11:42 AM" source="" description="" comment="" author="" title="" info="">
+      <mapcoords y="-1.53534" y_floorplan_percent="79.8571" mapid="FloorPlan01" x_floorplan_percent="23" x="0.4422"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="630.605" customimageheight="94" use3D="1" id="Point01" pan="-181.09" target="" url="{node18}" fov="10.51" skinid="ht_node" tilt="-38.25" description="Entrance" customimagewidth="116" title=""/>
-      <hotspot id="Point02" pan="-312.46" target="_blank" url="https://www.lumination.com.au/products/drone-education-kits" skinid="ht_url" tilt="-14.81" description="" title="Drone Education Kits"/>
-      <hotspot id="Point03" pan="-53.41" target="_blank" url="http://www.beamcamp.com.au/" skinid="ht_url" tilt="-29.94" description="" title="Beam Holiday Camp"/>
-      <hotspot id="Point04" pan="-59.27" target="" url="" skinid="ht_info" tilt="9.89" description="When students come to visit the STEM Innovation Lab, they'll start off here in the Collaboration Room. Here, they can collaborate with their classmates while forming their solution to a chosen topic. We also hold professional development workshops here for teachers to develop their skills." title="Collaboration Room"/>
-      <hotspot id="Point05" pan="-1.75" target="_blank" url="https://www.lumination.com.au/products/vibe-interactive-whiteboard" skinid="ht_url" tilt="5.22" description="" title="Vibe Interactive"/>
-      <hotspot id="Point07" pan="-302.92" target="" url="images/GroupDrone.jpg" skinid="ht_image" tilt="-14.71" description="" title="Drone Education"/>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_node" fov="10.51" customimageheight="94" url="{node18}" customimagewidth="116" use3D="1" description="Entrance" target="" id="Point01" tilt="-38.25" title="" customimage="media/Arrow3D.png" pan="-181.09" distance3D="630.605"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/products/drone-education-kits" description="" target="_blank" id="Point02" tilt="-14.81" title="Drone Education Kits" pan="-312.46"/>
+      <hotspot skinid="ht_url" url="http://www.beamcamp.com.au/" description="" target="_blank" id="Point03" tilt="-29.94" title="Beam Holiday Camp" pan="-53.41"/>
+      <hotspot skinid="ht_info" url="" description="When students come to visit the STEM Innovation Lab, they'll start off here in the Collaboration Room. Here, they can collaborate with their classmates while forming their solution to a chosen topic. We also hold professional development workshops here for teachers to develop their skills." target="" id="Point04" tilt="9.89" title="Collaboration Room" pan="-59.27"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/products/vibe-interactive-whiteboard" description="" target="_blank" id="Point05" tilt="5.22" title="Vibe Interactive" pan="-1.75"/>
+      <hotspot skinid="ht_image" url="images/GroupDrone.jpg" description="" target="" id="Point07" tilt="-14.71" title="Drone Education" pan="-302.92"/>
     </hotspots>
     <media>
-      <video field="90.000" height="1080" handcursor="1" level="1.000" pansize="10.000" width="1920" startmutedmobile="1" mode="3" ambientlevel="0.000" clickmode="2" roty="4.000" tilt="-4.330" id="Element01" pan="-1.900" rotx="0.000" fov="20.590" stretch="1.000" loop="1" tiltsize="10.000" rotz="-0.500" nodechangekeep="0">
+      <video roty="4.000" mode="3" pansize="10.000" startmutedmobile="1" tiltsize="10.000" stretch="1.000" nodechangekeep="0" handcursor="1" field="90.000" tilt="-4.330" rotz="-0.500" pan="-1.900" rotx="0.000" clickmode="2" fov="20.590" level="1.000" ambientlevel="0.000" width="1920" id="Element01" height="1080" loop="1">
         <source url="media/Vibe Interactive Whiteboard Overview.mp4"/>
       </video>
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
     </media>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
   </panorama>
-  <panorama id="node22" hideabout="1">
-    <input leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="-1" levelbias="0.400" levelingpitch="1" width="3920" height="3920" overlap="1" leveltilesize="510">
-      <level preload="0" width="3920" height="3920" predecode="0"/>
-      <level preload="0" width="1960" height="1960" predecode="0"/>
-      <level preload="0" width="980" height="980" predecode="0"/>
-      <level preload="1" width="490" height="490" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama hideabout="1" id="node22">
+    <input height="3920" levelingpitch="1" width="3920" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="-1">
+      <level height="3920" width="3920" preload="0" predecode="0"/>
+      <level height="1960" width="1960" preload="0" predecode="0"/>
+      <level height="980" width="980" preload="0" predecode="0"/>
+      <level height="490" width="490" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="175" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata heading="175" longitude="" latitude="" comment="" nodeid="node22" info="" source="" copyright="" author="" description="" datetime="25/05/2020 12:06 PM" tags="Hallway" customnodeid="" title="">
-      <mapcoords y_floorplan_percent="55.1429" mapid="FloorPlan01" y="-1.06018" x="1.02997" x_floorplan_percent="53.5714"/>
+    <userdata longitude="" copyright="" nodeid="node22" heading="175" latitude="" customnodeid="" tags="Hallway" datetime="25/05/2020 12:06 PM" source="" description="" comment="" author="" title="" info="">
+      <mapcoords y="-1.06018" y_floorplan_percent="55.1429" mapid="FloorPlan01" x_floorplan_percent="53.5714" x="1.02997"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point01" pan="-5.54" target="" url="{node18}" fov="10" skinid="ht_node" tilt="-35.95" description="" customimagewidth="116" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point02" pan="-158.74" target="-1.9/-0.0/70.0" url="{node19}" fov="10" skinid="ht_node" tilt="-43.85" description="" customimagewidth="116" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point03" pan="-266.08" target="-126.3/-5.9/70.0" url="{node23}" fov="10" skinid="ht_node" tilt="-59.76" description="" customimagewidth="116" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point04" pan="-92.74" target="-173.1/-6.0/70.0" url="{node20}" fov="10" skinid="ht_node" tilt="-38" description="" customimagewidth="116" title=""/>
-      <hotspot id="Point05" pan="-155.47" target="" url="" skinid="ht_info" tilt="-4.36" description="This way to the Immersion room, where visitors can experience cutting edge immersive virtual reality!" title="Back to the Immersion Room"/>
-      <hotspot id="Point06" pan="-269.97" target="" url="" skinid="ht_info" tilt="-16.15" description="This way to the warehouse, where our engineering and service delivery team work on developing and deploying our immersive education kits. " title="Warehouse"/>
-      <hotspot id="Point07" pan="-93.1" target="" url="" skinid="ht_info" tilt="6.17" description="This way to the Lumination head office, where our team collaborate to bring Lumination services and resources to life!" title="Head Office"/>
-      <hotspot id="Point08" pan="-6.47" target="" url="" skinid="ht_info" tilt="-14.75" description="This way to the Collaboration Room, where students collaborate to develop innovative solutions for a chosen topic. " title="Collaboration Room"/>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node18}" customimagewidth="116" use3D="1" description="" target="" id="Point01" tilt="-35.95" title="" customimage="media/Arrow3D.png" pan="-5.54" distance3D="662.943"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node19}" customimagewidth="116" use3D="1" description="" target="-1.9/-0.0/70.0" id="Point02" tilt="-43.85" title="" customimage="media/Arrow3D.png" pan="-158.74" distance3D="662.943"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node23}" customimagewidth="116" use3D="1" description="" target="-126.3/-5.9/70.0" id="Point03" tilt="-59.76" title="" customimage="media/Arrow3D.png" pan="-266.08" distance3D="662.943"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node20}" customimagewidth="116" use3D="1" description="" target="-173.1/-6.0/70.0" id="Point04" tilt="-38" title="" customimage="media/Arrow3D.png" pan="-92.74" distance3D="662.943"/>
+      <hotspot skinid="ht_info" url="" description="This way to the Immersion room, where visitors can experience cutting edge immersive virtual reality!" target="" id="Point05" tilt="-4.36" title="Back to the Immersion Room" pan="-155.47"/>
+      <hotspot skinid="ht_info" url="" description="This way to the warehouse, where our engineering and service delivery team work on developing and deploying our immersive education kits. " target="" id="Point06" tilt="-16.15" title="Warehouse" pan="-269.97"/>
+      <hotspot skinid="ht_info" url="" description="This way to the Lumination head office, where our team collaborate to bring Lumination services and resources to life!" target="" id="Point07" tilt="6.17" title="Head Office" pan="-93.1"/>
+      <hotspot skinid="ht_info" url="" description="This way to the Collaboration Room, where students collaborate to develop innovative solutions for a chosen topic. " target="" id="Point08" tilt="-14.75" title="Collaboration Room" pan="-6.47"/>
     </hotspots>
     <media>
-      <video field="90.000" height="2160" handcursor="0" level="1.000" pansize="10.000" width="3840" startmutedmobile="0" mode="3" ambientlevel="0.000" clickmode="0" roty="0.000" tilt="-0.450" id="Element01" pan="-198.490" rotx="-23.000" fov="29.491" stretch="1.000" loop="1" tiltsize="10.000" rotz="90.000" nodechangekeep="0">
+      <video roty="0.000" mode="3" pansize="10.000" startmutedmobile="0" tiltsize="10.000" stretch="1.000" nodechangekeep="0" handcursor="0" field="90.000" tilt="-0.450" rotz="90.000" pan="-198.490" rotx="-23.000" clickmode="0" fov="29.491" level="1.000" ambientlevel="0.000" width="3840" id="Element01" height="2160" loop="1">
         <source url="media/STEM Innovation Lab Expo Display_1.mp4"/>
       </video>
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
     </media>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
   </panorama>
-  <panorama id="node19" hideabout="1">
-    <input leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400" levelingpitch="0" width="3956" height="3956" overlap="1" leveltilesize="510">
-      <level preload="0" width="3956" height="3956" predecode="0"/>
-      <level preload="0" width="1978" height="1978" predecode="0"/>
-      <level preload="0" width="989" height="989" predecode="0"/>
-      <level preload="1" width="494" height="494" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
+  <panorama hideabout="1" id="node19">
+    <input height="3956" levelingpitch="0" width="3956" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="3956" width="3956" preload="0" predecode="0"/>
+      <level height="1978" width="1978" preload="0" predecode="0"/>
+      <level height="989" width="989" preload="0" predecode="0"/>
+      <level height="494" width="494" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="2" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
     </view>
-    <userdata heading="2" longitude="" latitude="" comment="" nodeid="node19" info="" source="" copyright="" author="" description="" datetime="25/05/2020 12:46 PM" tags="Immersion" customnodeid="" title="">
-      <mapcoords y_floorplan_percent="35.8571" mapid="FloorPlan01" y="-0.689392" x="0.541077" x_floorplan_percent="28.1429"/>
+    <userdata longitude="" copyright="" nodeid="node19" heading="2" latitude="" customnodeid="" tags="Immersion" datetime="25/05/2020 12:46 PM" source="" description="" comment="" author="" title="" info="">
+      <mapcoords y="-0.689392" y_floorplan_percent="35.8571" mapid="FloorPlan01" x_floorplan_percent="28.1429" x="0.541077"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point01" pan="-177.9" target="" url="{node22}" fov="10" skinid="ht_node" tilt="-30.15" description="" customimagewidth="116" title=""/>
-      <hotspot id="Point02" pan="-268.25" target="" url="391399269" skinid="ht_video_vimeo" tilt="1.64" description="" title="STEM Innovation Lab"/>
-      <hotspot id="Point03" pan="-345.61" target="" url="" skinid="ht_info" tilt="4.24" description="Welcome to the Immersion Room! Here students are able to take the solutions they've developed and test them in immersive virtual reality, whilst sharing their work with peers on our large scale projections in real time. " title="Immersion Room"/>
-      <hotspot id="Point04" pan="-77.97" target="_blank" url="https://www.lumination.com.au/services/stem-innovation-lab" skinid="ht_url" tilt="4.21" description="" title="STEM Innovation Lab"/>
-      <hotspot id="Point05" pan="-199.93" target="" url="" skinid="ht_info" tilt="-3.08" description="Using the Omni-directional KatVR, students can walk around in virtual reality and enjoy complete freedom of movement while turning their ideas into reality." title="KatVR"/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
-  </panorama>
-  <panorama id="node23" hideabout="1">
-    <input leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="2" levelbias="0.400" levelingpitch="-3" width="3954" height="3954" overlap="1" leveltilesize="510">
-      <level preload="0" width="3954" height="3954" predecode="0"/>
-      <level preload="0" width="1977" height="1977" predecode="0"/>
-      <level preload="0" width="988" height="988" predecode="0"/>
-      <level preload="1" width="494" height="494" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="-35" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
-    </view>
-    <userdata heading="-35" longitude="" latitude="" comment="" nodeid="node23" info="" source="" copyright="" author="" description="" datetime="26/05/2020 5:22 PM" tags="Warehouse" customnodeid="" title="">
-      <mapcoords y_floorplan_percent="43.2857" mapid="FloorPlan01" y="-0.832214" x="1.29639" x_floorplan_percent="67.4286"/>
-    </userdata>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point01" pan="-256.14" target="" url="{node22}" fov="10" skinid="ht_node" tilt="-31.67" description="" customimagewidth="116" title=""/>
-      <hotspot id="Point02" pan="-148.41" target="" url="" skinid="ht_info" tilt="-3.78" description="Our UV printing technology allows us to print any school logo or graphic on headsets, pelican cases, devices or anything else you can think of!" title="UV Printing"/>
-      <hotspot id="Point03" pan="-99.83" target="" url="" skinid="ht_info" tilt="1.01" description="Our engineering team utilises cutting edge CNC technology to custom cut, form, and route any shape or profile you require for storing and transporting devices and tools. " title="CNC Manufacturing "/>
-      <hotspot id="Point04" pan="-124.23" target="" url="" skinid="ht_info" tilt="-3.67" description="Protect and customise your valuable assets with custom laser engraved logos, asset tags and credentials. " title="Laser Engraving "/>
-      <hotspot id="Point06" pan="-25.17" target="_blank" url="https://www.lumination.com.au/services/safestore" skinid="ht_url" tilt="-2.08" description="" title="SafeStore"/>
-      <hotspot id="Point07" pan="-156.93" target="" url="images/2020-03-25.jpeg" skinid="ht_image" tilt="-13.28" description="" title=""/>
-      <hotspot id="Point08" pan="-101.31" target="" url="images/IMG_8036.JPG" skinid="ht_image" tilt="-19.8" description="" title=""/>
-      <hotspot id="Point05" pan="-9.42" target="" url="403578848" skinid="ht_video_vimeo" tilt="-21.64" description="" title="Behind the Scenes at SafeStore"/>
-    </hotspots>
-    <media/>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
-  </panorama>
-  <panorama id="node20" hideabout="1">
-    <input leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400" levelingpitch="1" width="3958" height="3958" overlap="1" leveltilesize="510">
-      <level preload="0" width="3958" height="3958" predecode="0"/>
-      <level preload="0" width="1979" height="1979" predecode="0"/>
-      <level preload="0" width="989" height="989" predecode="0"/>
-      <level preload="1" width="494" height="494" predecode="1"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view pannorth="3" fovmode="0">
-      <start pan="0" fov="70" projection="4" tilt="0"/>
-      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
-      <min pan="0" fov="70" tilt="-90"/>
-      <max pan="360" scaletofit="1" fov="120" fovstereographic="270" tilt="90" fovfisheye="360"/>
-    </view>
-    <userdata heading="3" longitude="" latitude="" comment="" nodeid="node20" info="" source="" copyright="" author="" description="" datetime="26/05/2020 11:44 AM" tags="Office" customnodeid="" title="">
-      <mapcoords y_floorplan_percent="45.5714" mapid="FloorPlan02" y="-0.87616" x="0.793762" x_floorplan_percent="41.2857"/>
-    </userdata>
-    <hotspots wordwrap="1" width="180" height="0">
-      <label border="1" backgroundcolor="0xffffff" bordercolor="0x000000" enabled="1" backgroundalpha="1" wordwrap="1" borderalpha="1" textalpha="1" background="1" textcolor="0x000000" width="180" height="0" borderradius="1"/>
-      <polystyle handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff" backgroundalpha="0.25098" mode="0" borderalpha="1"/>
-      <hotspot customimage="media/logo-white.png" distance3D="1874.53" customimageheight="328" use3D="0" id="Point01" pan="360" target="_blank" url="https://www.lumination.com.au/" fov="10" skinid="ht_url" tilt="-88.29" description="" customimagewidth="328" title=""/>
-      <hotspot customimage="media/Arrow3D.png" distance3D="662.943" customimageheight="94" use3D="1" id="Point01" pan="-46.15" target="87.3/-12.8/70.0" url="{node22}" fov="10" skinid="ht_node" tilt="-37.39" description="" customimagewidth="116" title=""/>
-      <hotspot id="Point03" pan="-9.98" target="" url="" skinid="ht_info" tilt="-1.31" description="Here our STEM program leader, Dr Marissa Bond, works on developing mind blowing unit plans, immersive workshops, and innovative resources to deliver to students and educators of all year levels and subjects. " title="STEM Education"/>
-      <hotspot id="Point04" pan="-352.65" target="" url="" skinid="ht_info" tilt="-1.79" description="When you get in contact with Lumination, you'll usually be greeted by one of our admin or sales representatives. They'll be able to answer any questions you have and seek out the solutions you require. " title="Administration and Sales"/>
-      <hotspot id="Point05" pan="-320.08" target="" url="" skinid="ht_info" tilt="-4.63" description="Here our tech team work on developing and fine-tuning our immersive tech solutions. The team are also able to provide on-going tech support for customers regarding their kits. " title="Tech Operations"/>
-      <hotspot id="Point06" pan="-263.77" target="" url="" skinid="ht_info" tilt="-2.33" description="Our marketing team work to spread the word about Lumination's future-focused products and services, as well as transform big ideas into engaging visual content. " title="Marketing and Content Creation"/>
-      <hotspot id="Point07" pan="-173.14" target="_blank" url="https://www.lumination.com.au/services/professional-development" skinid="ht_url" tilt="-7.57" description="" title="Professional Development"/>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_node" url="{node22}" description="" target="" id="Point01" tilt="-30.15" title="" pan="-177.9"/>
+      <hotspot skinid="ht_video_vimeo" url="391399269" description="" target="" id="Point02" tilt="1.64" title="STEM Innovation Lab" pan="-268.25"/>
+      <hotspot skinid="ht_info" url="" description="Welcome to the Immersion Room! Here students are able to take the solutions they've developed and test them in immersive virtual reality, whilst sharing their work with peers on our large scale projections in real time. " target="" id="Point03" tilt="4.24" title="Immersion Room" pan="-345.61"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/services/stem-innovation-lab" description="" target="_blank" id="Point04" tilt="4.21" title="STEM Innovation Lab" pan="-77.97"/>
+      <hotspot skinid="ht_info" url="" description="Using the Omni-directional KatVR, students can walk around in virtual reality and enjoy complete freedom of movement while turning their ideas into reality." target="" id="Point05" tilt="-3.08" title="KatVR" pan="-199.93"/>
     </hotspots>
     <media>
-      <video field="90.000" height="1080" handcursor="1" level="1.000" pansize="10.000" width="1920" startmutedmobile="1" mode="3" ambientlevel="0.300" clickmode="0" roty="0.000" tilt="-18.060" id="Element01" pan="-173.650" rotx="-17.000" fov="24.660" stretch="1.000" loop="1" tiltsize="10.000" poster="media/Lumination Professional Development_preview.jpg" rotz="0.000" nodechangekeep="0">
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
+    </media>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node23">
+    <input height="3954" levelingpitch="-3" width="3954" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="2">
+      <level height="3954" width="3954" preload="0" predecode="0"/>
+      <level height="1977" width="1977" preload="0" predecode="0"/>
+      <level height="988" width="988" preload="0" predecode="0"/>
+      <level height="494" width="494" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="-35" fovmode="0">
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
+    </view>
+    <userdata longitude="" copyright="" nodeid="node23" heading="-35" latitude="" customnodeid="" tags="Warehouse" datetime="26/05/2020 5:22 PM" source="" description="" comment="" author="" title="" info="">
+      <mapcoords y="-0.832214" y_floorplan_percent="43.2857" mapid="FloorPlan01" x_floorplan_percent="67.4286" x="1.29639"/>
+    </userdata>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node22}" customimagewidth="116" use3D="1" description="" target="" id="Point01" tilt="-31.67" title="" customimage="media/Arrow3D.png" pan="-256.14" distance3D="662.943"/>
+      <hotspot skinid="ht_info" url="" description="Our UV printing technology allows us to print any school logo or graphic on headsets, pelican cases, devices or anything else you can think of!" target="" id="Point02" tilt="-3.78" title="UV Printing" pan="-148.41"/>
+      <hotspot skinid="ht_info" url="" description="Our engineering team utilises cutting edge CNC technology to custom cut, form, and route any shape or profile you require for storing and transporting devices and tools. " target="" id="Point03" tilt="1.01" title="CNC Manufacturing " pan="-99.83"/>
+      <hotspot skinid="ht_info" url="" description="Protect and customise your valuable assets with custom laser engraved logos, asset tags and credentials. " target="" id="Point04" tilt="-3.67" title="Laser Engraving " pan="-124.23"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/services/safestore" description="" target="_blank" id="Point06" tilt="-2.08" title="SafeStore" pan="-25.17"/>
+      <hotspot skinid="ht_image" url="images/2020-03-25.jpeg" description="" target="" id="Point07" tilt="-13.28" title="" pan="-156.93"/>
+      <hotspot skinid="ht_image" url="images/IMG_8036.JPG" description="" target="" id="Point08" tilt="-19.8" title="" pan="-101.31"/>
+      <hotspot skinid="ht_video_vimeo" url="403578848" description="" target="" id="Point05" tilt="-21.64" title="Behind the Scenes at SafeStore" pan="-9.42"/>
+    </hotspots>
+    <media>
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
+    </media>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node20">
+    <input height="3958" levelingpitch="1" width="3958" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" levelbiashidpi="1.000" leveltilesize="510" overlap="1" levelingroll="0">
+      <level height="3958" width="3958" preload="0" predecode="0"/>
+      <level height="1979" width="1979" preload="0" predecode="0"/>
+      <level height="989" width="989" preload="0" predecode="0"/>
+      <level height="494" width="494" preload="1" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="3" fovmode="0">
+      <start fov="70" projection="4" tilt="0" pan="0"/>
+      <flyin fov="170" projection="9" tilt="-90" pan="0"/>
+      <min fov="70" tilt="-90" pan="0"/>
+      <max fov="120" fovfisheye="360" tilt="90" scaletofit="1" pan="360" fovstereographic="270"/>
+    </view>
+    <userdata longitude="" copyright="" nodeid="node20" heading="3" latitude="" customnodeid="" tags="Office" datetime="26/05/2020 11:44 AM" source="" description="" comment="" author="" title="" info="">
+      <mapcoords y="-0.87616" y_floorplan_percent="45.5714" mapid="FloorPlan02" x_floorplan_percent="41.2857" x="0.793762"/>
+    </userdata>
+    <hotspots height="0" width="180" wordwrap="1">
+      <label border="1" height="0" backgroundalpha="1" enabled="1" width="180" borderalpha="1" textcolor="0x000000" textalpha="1" borderradius="1" backgroundcolor="0xffffff" wordwrap="1" background="1" bordercolor="0x000000"/>
+      <polystyle backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0xffffff" bordercolor="0x0000ff"/>
+      <hotspot skinid="ht_url" fov="10" customimageheight="328" url="https://www.lumination.com.au/" customimagewidth="328" use3D="0" description="" target="_blank" id="Point01" tilt="-88.29" title="" customimage="media/logo-white.png" pan="360" distance3D="1874.53"/>
+      <hotspot skinid="ht_node" fov="10" customimageheight="94" url="{node22}" customimagewidth="116" use3D="1" description="" target="87.3/-12.8/70.0" id="Point01" tilt="-37.39" title="" customimage="media/Arrow3D.png" pan="-46.15" distance3D="662.943"/>
+      <hotspot skinid="ht_info" url="" description="Here our STEM program leader, Dr Marissa Bond, works on developing mind blowing unit plans, immersive workshops, and innovative resources to deliver to students and educators of all year levels and subjects. " target="" id="Point03" tilt="-1.31" title="STEM Education" pan="-9.98"/>
+      <hotspot skinid="ht_info" url="" description="When you get in contact with Lumination, you'll usually be greeted by one of our admin or sales representatives. They'll be able to answer any questions you have and seek out the solutions you require. " target="" id="Point04" tilt="-1.79" title="Administration and Sales" pan="-352.65"/>
+      <hotspot skinid="ht_info" url="" description="Here our tech team work on developing and fine-tuning our immersive tech solutions. The team are also able to provide on-going tech support for customers regarding their kits. " target="" id="Point05" tilt="-4.63" title="Tech Operations" pan="-320.08"/>
+      <hotspot skinid="ht_info" url="" description="Our marketing team work to spread the word about Lumination's future-focused products and services, as well as transform big ideas into engaging visual content. " target="" id="Point06" tilt="-2.33" title="Marketing and Content Creation" pan="-263.77"/>
+      <hotspot skinid="ht_url" url="https://www.lumination.com.au/services/professional-development" description="" target="_blank" id="Point07" tilt="-7.57" title="Professional Development" pan="-173.14"/>
+    </hotspots>
+    <media>
+      <video roty="0.000" mode="3" pansize="10.000" startmutedmobile="1" tiltsize="10.000" stretch="1.000" poster="media/Lumination Professional Development_preview.jpg" nodechangekeep="0" handcursor="1" field="90.000" tilt="-18.060" rotz="0.000" pan="-173.650" rotx="-17.000" clickmode="0" fov="24.660" level="1.000" ambientlevel="0.300" width="1920" id="Element01" height="1080" loop="1">
         <source url="media/Lumination Professional Development.mp4"/>
       </video>
+      <sound mode="0" loop="1" url="media/skin_snd_bensound-inspire.mp3" level="0.200" keep="1" id="bensound-inspire"/>
     </media>
-    <transition blendtime="1" zoomfov="20" type="crossdissolve" enabled="1" zoomout="2" zoomoutpause="0" zoomspeed="2" zoomin="2" softedge="0" blendcolor="0x000000"/>
-    <flyintransition enabled="1" speed="2.00"/>
-    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
-    <control sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" contextfullscreen="1" simulatemass="1" dblclickfullscreen="0" contextprojections="0" invertwheel="0" speedwheel="1" lockedkeyboard="0" lockedwheel="0" rubberband="0" invertcontrol="1" hideabout="1"/>
+    <transition zoomin="2" zoomoutpause="0" enabled="1" zoomspeed="2" blendtime="1" blendcolor="0x000000" softedge="0" zoomfov="20" zoomout="2" type="crossdissolve"/>
+    <flyintransition speed="2.00" enabled="1"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" speedwheel="1" hideabout="1" lockedmouse="0" lockedkeyboard="0" rubberband="0" lockedkeyboardzoom="0" contextprojections="0" lockedwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" invertwheel="0"/>
   </panorama>
   <masternode>
-    <userdata heading="0" longitude="" latitude="" comment="" nodeid="master" info="" source="" copyright="" author="" description="" datetime="" tags="" customnodeid="" title=""/>
+    <userdata longitude="" copyright="" nodeid="master" heading="0" latitude="" customnodeid="" tags="" datetime="" source="" description="" comment="" author="" title="" info=""/>
   </masternode>
-  <map zoomlevels="1" id="FloorPlan01" type="file" tileformat="jpg" transparent="0" bgcolor="rgba(255, 255, 255, 1)" width="700" height="700" floorplannorth="0" title=""/>
-  <map zoomlevels="1" id="FloorPlan02" type="file" tileformat="jpg" transparent="0" bgcolor="rgba(255, 255, 255, 1)" width="700" height="700" floorplannorth="0" title=""/>
+  <map floorplannorth="0" height="700" tileformat="jpg" transparent="0" width="700" bgcolor="rgba(255, 255, 255, 1)" id="FloorPlan01" title="" zoomlevels="1" type="file"/>
+  <map floorplannorth="0" height="700" tileformat="jpg" transparent="0" width="700" bgcolor="rgba(255, 255, 255, 1)" id="FloorPlan02" title="" zoomlevels="1" type="file"/>
 </tour>
